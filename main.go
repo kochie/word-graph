@@ -1,9 +1,12 @@
 package main
 
 import (
-	"github.com/kochie/word-graph/wordGraph"
+	"fmt"
+
+	"github.com/kochie/word-graph/webGrab"
 )
 
 func main() {
-	word_graph := wordGraph.New()
+	// word_graph := wordGraph.New()
+	fmt.Println(webGrab.GetSynonyms("logic"))
 }
